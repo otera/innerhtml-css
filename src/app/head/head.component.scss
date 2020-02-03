@@ -1,0 +1,13 @@
+.title {
+  .br-sp {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 0.8rem;
+    .br-sp {
+      display: inline;
+    }
+  }
+}
